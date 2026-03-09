@@ -8,35 +8,35 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-12 sm:mb-20">
           <h2 className="text-sm font-bold text-emerald-600 tracking-widest uppercase">Discover</h2>
-          <p className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+          <p className="mt-2 text-3xl sm:text-4xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-5xl">
             About Me
           </p>
           <div className="mt-6 w-24 h-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-full mx-auto"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           
           {/* Left Column: Bio & Skills */}
-          <div className="lg:col-span-5 prose prose-lg text-slate-600">
-            <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm mb-10">
-               <h3 className="text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-3">
+          <div className="lg:col-span-5 prose prose-lg text-slate-600 w-full max-w-none">
+            <div className="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-100 shadow-sm mb-10 text-center sm:text-left">
+               <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 mb-4 flex items-center justify-center sm:justify-start gap-3">
                  <span className="w-8 h-1 bg-emerald-600 inline-block rounded-full"></span> Objective
                </h3>
-               <p className="leading-relaxed font-medium text-slate-700">
+               <p className="leading-relaxed font-medium text-slate-700 text-base sm:text-lg">
                  {personalInfo.about}
                </p>
             </div>
             
-            <h3 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-3">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 mb-6 flex items-center justify-center sm:justify-start gap-3">
                <span className="w-8 h-1 bg-teal-600 inline-block rounded-full"></span> Technical Skills
             </h3>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-3">
               {skills.map((skill, index) => (
                 <span 
                   key={index}
-                  className="px-4 py-2 rounded-xl bg-white text-slate-700 font-bold text-sm border-2 border-slate-100 shadow-sm transition-all hover:border-emerald-500 hover:text-emerald-600 hover:-translate-y-1 cursor-default"
+                  className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl bg-white text-slate-700 font-bold text-xs sm:text-sm border-2 border-slate-100 shadow-sm transition-all hover:border-emerald-500 hover:text-emerald-600 hover:-translate-y-1 cursor-default"
                 >
                   {skill}
                 </span>
@@ -44,13 +44,13 @@ const About = () => {
             </div>
 
             {/* Achievements */}
-            <div className="mt-12">
-               <h3 className="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-3">
+            <div className="mt-12 text-center sm:text-left">
+               <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 mb-6 flex items-center justify-center sm:justify-start gap-3">
                  <span className="w-8 h-1 bg-amber-500 inline-block rounded-full"></span> Achievements
                </h3>
-               <ul className="space-y-4">
+               <ul className="space-y-4 text-left">
                  {achievements.map((achievement, idx) => (
-                    <li key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-amber-50 border border-amber-100 text-amber-900 font-medium">
+                    <li key={idx} className="flex items-start gap-3 sm:gap-4 p-4 rounded-xl bg-amber-50 border border-amber-100 text-amber-900 font-medium text-sm sm:text-base">
                        <Trophy className="text-amber-500 shrink-0 mt-0.5" size={20} />
                        <span>{achievement}</span>
                     </li>

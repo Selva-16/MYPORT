@@ -10,54 +10,54 @@ const Contact = () => {
          <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] rounded-full bg-teal-50/50 blur-3xl opacity-80 pointer-events-none"></div>
 
          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="text-center mb-16">
+            <div className="text-center mb-12 sm:mb-16">
                <h2 className="text-sm font-bold text-emerald-600 tracking-widest uppercase mb-4 flex items-center justify-center gap-2">
                   <span className="w-8 h-0.5 bg-emerald-600 rounded-full"></span>
                   Connect
                   <span className="w-8 h-0.5 bg-emerald-600 rounded-full"></span>
                </h2>
-               <p className="text-4xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-6xl mb-6">
+               <p className="text-3xl sm:text-4xl md:text-6xl leading-tight font-extrabold tracking-tight text-slate-900 mb-6">
                   Get In Touch
                </p>
-               <p className="max-w-2xl mx-auto text-xl text-slate-600 font-medium leading-relaxed">
+               <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-600 font-medium leading-relaxed px-2 sm:px-0">
                   I'm currently looking for new opportunities. Whether you have a question or just want to collaborate, feel free to reach out!
                </p>
             </div>
 
-            <div className="bg-white rounded-[2.5rem] shadow-xl shadow-slate-200/50 p-12 border border-slate-100 flex flex-col md:flex-row gap-12 items-center justify-center relative overflow-hidden">
+            <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] shadow-xl shadow-slate-200/50 p-6 sm:p-12 border border-slate-100 flex flex-col md:flex-row gap-8 sm:gap-12 items-center justify-center relative overflow-hidden">
 
-               <div className="w-full flex flex-col gap-8 relative z-10">
+               <div className="w-full flex flex-col gap-6 sm:gap-8 relative z-10">
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 w-full">
 
                      {/* Email */}
-                     <a href={`mailto:${personalInfo.contact.email}`} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50/30 hover:shadow-lg transition-all flex flex-col items-center text-center">
-                        <div className="w-16 h-16 rounded-2xl bg-white text-emerald-600 shadow-sm flex items-center justify-center mb-6 border border-slate-100 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
-                           <Mail size={32} />
+                     <a href={`mailto:${personalInfo.contact.email}`} className="group p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:bg-emerald-50/30 hover:shadow-lg transition-all flex flex-col items-center text-center">
+                        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-white text-emerald-600 shadow-sm flex items-center justify-center mb-4 sm:mb-6 border border-slate-100 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                           <Mail size={28} className="sm:w-8 sm:h-8" />
                         </div>
-                        <h3 className="text-xl font-bold text-slate-900 mb-2">Email Me</h3>
-                        <span className="text-slate-500 font-medium group-hover:text-emerald-700 transition-colors">{personalInfo.contact.email}</span>
+                        <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">Email Me</h3>
+                        <span className="text-sm sm:text-base text-slate-500 font-medium group-hover:text-emerald-700 transition-colors break-all px-2">{personalInfo.contact.email}</span>
                      </a>
 
                      {/* Phone */}
-                     <a href={`tel:${personalInfo.contact.phone}`} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-teal-200 hover:bg-teal-50/30 hover:shadow-lg transition-all flex flex-col items-center text-center">
-                        <div className="w-16 h-16 rounded-2xl bg-white text-teal-600 shadow-sm flex items-center justify-center mb-6 border border-slate-100 group-hover:bg-teal-600 group-hover:text-white transition-colors duration-300">
-                           <Phone size={32} />
+                     <a href={`tel:${personalInfo.contact.phone}`} className="group p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 hover:border-teal-200 hover:bg-teal-50/30 hover:shadow-lg transition-all flex flex-col items-center text-center">
+                        <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-white text-teal-600 shadow-sm flex items-center justify-center mb-4 sm:mb-6 border border-slate-100 group-hover:bg-teal-600 group-hover:text-white transition-colors duration-300">
+                           <Phone size={28} className="sm:w-8 sm:h-8" />
                         </div>
-                        <h3 className="text-xl font-bold text-slate-900 mb-2">Call Me</h3>
-                        <span className="text-slate-500 font-medium group-hover:text-teal-700 transition-colors">{personalInfo.contact.phone}</span>
+                        <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">Call Me</h3>
+                        <span className="text-sm sm:text-base text-slate-500 font-medium group-hover:text-teal-700 transition-colors">{personalInfo.contact.phone}</span>
                      </a>
                   </div>
 
                   {/* Location */}
-                  <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left hover:border-emerald-200 transition-all">
-                     <div className="flex flex-col sm:flex-row items-center gap-6">
-                        <div className="w-16 h-16 shrink-0 rounded-2xl bg-white text-emerald-600 shadow-sm flex items-center justify-center border border-slate-100 group-hover:scale-110 transition-transform duration-300">
-                           <MapPin size={32} />
+                  <div className="group p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left hover:border-emerald-200 transition-all">
+                     <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+                        <div className="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-xl sm:rounded-2xl bg-white text-emerald-600 shadow-sm flex items-center justify-center border border-slate-100 group-hover:scale-110 transition-transform duration-300">
+                           <MapPin size={28} className="sm:w-8 sm:h-8" />
                         </div>
                         <div>
-                           <h3 className="text-xl font-bold text-slate-900 mb-1">Location</h3>
-                           <span className="text-slate-500 font-medium text-lg">{personalInfo.contact.location}</span>
+                           <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1">Location</h3>
+                           <span className="text-sm sm:text-lg text-slate-500 font-medium">{personalInfo.contact.location}</span>
                         </div>
                      </div>
                   </div>
