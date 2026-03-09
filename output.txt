@@ -1,0 +1,74 @@
+P. SELVANARAYANAN   
+Sivakasi – 626124 | 93603 69822 | selvanarayanan1607@gmail.com | https://github.com/Selva-16 
+ 
+OBJECTIVE  
+To obtain a challenging position as a Web Developer or Software Engineer in a growth-oriented 
+IT company where I can apply my full-stack development skills and contribute to innovative 
+projects. 
+TECHNICAL SKILLS    
+Web Technologies 
+•    HTML  
+•    CSS 
+•    JAVASCRIPT  
+Frameworks  
+•    BOOTSTRAP  
+•    REACT JS  
+Version Control 
+•    GITHUB  
+Backend 
+•    PHP 
+•    NODE JS 
+Operating System 
+•    Windows 
+Database 
+•    MYSQL  
+•    MONGODB   
+Full Stack 
+•    MERN Stack  
+ 
+Development Tools 
+•    IDE’s : VS Code 
+•    Postman 
+IT INTERESTS  
+•    Full  Stack  Web  Development 
+(Frontend & Backend) 
+ 
+•    Database  Design  and  Management 
+(MySQL, MongoDB)  
+WORK EXPERIENCE    
+•    Experienced 5-months XML Processing in AAA Techno Park, Sivakasi. 
+ 
+ 
+ 
+ 
+----------------Page (0) Break----------------
+EDUCATIONAL QUALIFICATIONS 
+Degree          Institution                                             Year                         Percentage 
+MCA            Ayya Nadar Janaki Ammal 
+College, Sivakasi 
+2023–2025               79% 
+BCA             Ayya Nadar Janaki Ammal 
+College, Sivakasi 
+2020–2023               69% 
+HSC             AVM Marimuthu Nadar Hr. Sec. 
+School, Vilampatti 
+2020                         59% 
+ACHIEVEMENTS    
+•    Completed  6-months  MERN  Stack  Web  Development  training  at  Secrolis 
+Technologies, Chennai. 
+•    Completed 15-days Web Development training at Spike Technologies, Tuticorin. 
+•    Achieved 62% score in TCS National Qualifier Test conducted by Tata 
+Consultancy Services. 
+ACADEMIC & TECHNICAL PROJECTS      
+• Website for Perfect Banker's Academy: A full-stack platform for an educational 
+academy to manage student registrations, mock exams, and result tracking.  
+Technologies Used: HTML, CSS, PHP, MySQL 
+• Client List Management System: A CRUD -based client data management tool 
+allowing record updates, additions, and deletions.  
+Technologies Used: HTML, CSS, PHP, MySQL 
+• Furniture  E-Commerce  Website:  A  dynamic  furniture  store  site  with  cart 
+functionality, category filters, and secure checkout process.  
+Technologies Used: React.js, Node.js, MongoDB 
+ 
+ 
+----------------Page (1) Break----------------
